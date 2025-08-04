@@ -16,8 +16,8 @@ const server = http.createServer(app) // Create server
 // Initialize socket.io on top of HTTP server
 export const io = new Server(server, {
   cors: {
-    origin: "http://localhost:5173",
-    methods: ["GET", "POST"]
+    origin: "https://chatapp-server-gsljvzj5f-mohits-projects-c1808117.vercel.app",
+    methods: ["GET", "POST","PUT","DELETE"]
   }
 })
 
