@@ -1,5 +1,5 @@
 import React from 'react';
-import HOMEPAGE from './pages/HOMEPAGE.JSX';
+import HOMEPAGE from './pages/HOMEPAGE';
 import LOGINPAGE from './pages/LOGINPAGE';
 import PROFILEPAGE from './pages/PROFILEPAGE';
 import { Navigate, Route, Routes } from 'react-router';
